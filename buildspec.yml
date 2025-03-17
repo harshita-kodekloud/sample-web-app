@@ -12,6 +12,7 @@ phases:
   build:
     commands:
       - echo Running tests...
+      - export PYTHONPATH=$PYTHONPATH:$(pwd)
       - pytest tests/ --cov=app
       - echo Building the application...
       - pip install wheel
