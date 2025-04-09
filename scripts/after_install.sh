@@ -1,2 +1,2 @@
 #!/bin/bash
-pip3 install -r /home/ubuntu/sample-web-app/requirements.txt
+pip3 install -r /var/www/html/sample-web-app/requirements.txt
